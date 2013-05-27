@@ -1,0 +1,77 @@
+.menuBuffer {
+  width: 5%;
+  float: left;
+  text-align: center;
+}
+.menuItem {
+  width: 30%;
+  float: left;
+  text-align: center;
+  padding-bottom: 8px;
+}
+#projectsLink{
+  background: #fff;
+}
+#aboutLink{
+  background: #fff;
+}
+#resumeLink{
+  background: #fff;
+}
+#projectsLink:hover{
+  background: #eee;
+}
+#aboutLink:hover{
+  background: #eee;
+}
+#resumeLink:hover{
+  background: #eee;
+}
+#menuTop {
+  text-align: center;
+}
+#menuBottom {
+}
+#topBuffer {
+  height: 150px;
+}
+#bluebar hr{
+  height:20px;
+  background:#446791;
+  margin: 0px;
+}
+hr {
+  height:1px;
+  background:#446791;
+  margin: 0px;
+}
+h1 {
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  margin: 20px 0px 10px 0px;
+}
+h6 {
+  font-family: Georgia, serif;
+  margin: 0px;
+}
+
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  background-color: #ffffff;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+/*a:focus {
+  background: #ccc;
+}
+
+a:hover,
+a:active {
+  background: #ccc;
+}*/
