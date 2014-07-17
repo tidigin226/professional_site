@@ -1,19 +1,19 @@
 $(document).ready(function() {
-  $("#projects").fadeOut();
-  $("#about").fadeOut();
-  $("#resume").fadeOut();
+  $("#projects").hide();
+  $("#about").hide();
+  $("#resume").hide();
   $("#projectsLink").click(function() {
     if($(this).css("background")==colStrings["chrome_Red"]){
-      $("#projects").fadeOut(300);
+      $("#projects").hide(300);
       $(this).css("background","#FFF");
       $(this).css("color","#000");
       $("#bluebar").css("background","#000");
       $("#topBuffer").animate({height:200},300); 
     }
     else{
-        $("#resume").fadeOut(300);
-        $("#about").fadeOut(300);
-        $("#projects").fadeIn(300);
+        $("#resume").hide(300);
+        $("#about").hide(300);
+        $("#projects").show(300);
         $("#resumeLink").css("background","#FFF");
         $("#resumeLink").css("color","#000");
         $("#aboutLink").css("background","#FFF");
@@ -26,16 +26,16 @@ $(document).ready(function() {
   });
   $("#aboutLink").click(function() {
     if($(this).css("background")==colStrings["chrome_Green"]){
-      $("#about").fadeOut(300);
+      $("#about").hide(300);
       $(this).css("background","#FFF");
       $(this).css("color","#000");
       $("#bluebar").css("background","#000");
       $("#topBuffer").animate({height:200},300); 
     }
     else{
-        $("#projects").fadeOut(300);
-        $("#resume").fadeOut(300);
-        $("#about").fadeIn(300);
+        $("#projects").hide(300);
+        $("#resume").hide(300);
+        $("#about").show(300);
         $("#resumeLink").css("background","#FFF");
         $("#resumeLink").css("color","#000");
         $("#projectsLink").css("background","#FFF");
@@ -48,16 +48,16 @@ $(document).ready(function() {
   });
   $("#resumeLink").click(function() {
     if($(this).css("background")==colStrings["chrome_Blue"]){
-      $("#resume").fadeOut(300);
+      $("#resume").hide(300);
       $(this).css("background","#FFF");
       $(this).css("color","#000");
       $("#bluebar").css("background","#000");
       $("#topBuffer").animate({height:200},300); 
     }
     else{
-        $("#projects").fadeOut(300);
-        $("#about").fadeOut(300);
-        $("#resume").fadeIn(300);
+        $("#projects").hide(300);
+        $("#about").hide(300);
+        $("#resume").show(300);
         $("#projectsLink").css("background","#FFF");
         $("#projectsLink").css("color","#000");
         $("#aboutLink").css("background","#FFF");

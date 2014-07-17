@@ -1,0 +1,97 @@
+.menuBuffer {
+  width: 5%;
+  float: left;
+  text-align: center;
+}
+.menuItem {
+  width: 30%;
+  float: left;
+  text-align: center;
+  padding-bottom: 8px;
+}
+.profpic {
+    margin: 0px auto 10px auto;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius: 50%;
+    background: url(prof_pic.jpg) no-repeat;
+    background-size: 230px, auto;
+    background-position: 0px 0px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 4px rgba(0, 0, 0, .8);
+}
+#projectsLink{
+  font-family: Georgia, serif;
+  /*background-color: #FDF3E7;*/
+  background-color: #FFF;
+}
+#aboutLink{
+  font-family: Georgia, serif;
+  /*background-color: #FDF3E7;*/
+  background-color: #FFF;
+}
+#resumeLink{
+  font-family: Georgia, serif;
+  /*background-color: #FDF3E7;*/
+  background-color: #FFF;
+}
+#projectsLink:hover{
+  background: #eee;
+  cursor: pointer;
+}
+#aboutLink:hover{
+  background: #eee;
+  cursor: pointer;
+}
+#resumeLink:hover{
+  background: #eee;
+  cursor: pointer;
+}
+#menuTop {
+  margin: auto;
+  text-align: center;
+  width: 325px;
+}
+#menuBottom {
+}
+#topBuffer {
+  height: 200px;
+  /*background:#492738;*/
+}
+.projectsBuffer{
+  height: 0px;
+}
+.container{
+  max-width: 850px;
+}
+h1 {
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  margin: 20px 0px 10px 0px;
+}
+h4 {
+  font-family: Georgia, serif;
+  margin: 0px;
+}
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  /*background-color: #FDF3E7;*/
+  background-color: #FFF;
+}
+a {
+  /*color: #000;*/
+  text-decoration: none;
+}
+/*a:focus {
+  background: #ccc;
+}
+a:hover,
+a:active {
+  background: #ccc;
+}*/
