@@ -68,16 +68,18 @@
   max-width: 850px;
 }
 h1 {
-  font-family: Helvetica, Verdana, Arial, sans-serif;
+  font-family: Lato, Calibri, Arial, sans-serif;
   margin: 20px 0px 10px 0px;
 }
 h4 {
-  font-family: Georgia, serif;
+  font-family: Baskerville, serif;
   margin: 0px;
 }
 body {
   margin: 0;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Lato, Calibri, Arial, sans-serif;
+
+
   font-size: 14px;
   line-height: 20px;
   color: #333333;
