@@ -26,17 +26,17 @@
 #projectsLink{
   font-family: Georgia, serif;
   /*background-color: #FDF3E7;*/
-  background-color: #FFF;
+  background-color: transparent;
 }
 #aboutLink{
   font-family: Georgia, serif;
   /*background-color: #FDF3E7;*/
-  background-color: #FFF;
+  background-color: transparent;
 }
 #resumeLink{
   font-family: Georgia, serif;
   /*background-color: #FDF3E7;*/
-  background-color: #FFF;
+  background-color: transparent;
 }
 #projectsLink:hover{
   background: #eee;
@@ -55,6 +55,9 @@
   text-align: center;
   width: 325px;
 }
+#menuTop h1{
+    color: #fff;
+}
 #menuBottom {
 }
 #topBuffer {
@@ -65,7 +68,10 @@
   height: 0px;
 }
 .container{
-  max-width: 850px;
+  max-width: 950px;
+  padding: 0px 50px;
+  height: 100%;
+  min-height: 2000px;
 }
 h1 {
   font-family: Lato, Calibri, Arial, sans-serif;
@@ -78,13 +84,16 @@ h4 {
 body {
   margin: 0;
   font-family: Lato, Calibri, Arial, sans-serif;
-
-
   font-size: 14px;
   line-height: 20px;
   color: #333333;
   /*background-color: #FDF3E7;*/
-  background-color: #FFF;
+  /*background-color: #FFF;*/
+  background-image: url('../IMG_5104.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 2000px;
 }
 a {
   /*color: #000;*/
