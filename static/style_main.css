@@ -56,7 +56,7 @@
   width: 325px;
 }
 #menuTop h1{
-    color: #fff;
+    /*color: #fff;*/
 }
 #menuBottom {
 }
@@ -71,7 +71,7 @@
   max-width: 950px;
   padding: 0px 50px;
   height: 100%;
-  min-height: 2000px;
+  /*min-height: 2000px;*/
 }
 h1 {
   font-family: Lato, Calibri, Arial, sans-serif;
@@ -87,22 +87,20 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #333333;
-  /*background-color: #FDF3E7;*/
-  /*background-color: #FFF;*/
-  background-image: url('../IMG_5104.jpg');
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  min-height: 2000px;
+}
+.background{
+  position: absolute;
+  z-index: -1;
+  text-align: center;
+}
+.background img{
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 100%;
 }
 a {
   /*color: #000;*/
   text-decoration: none;
 }
-/*a:focus {
-  background: #ccc;
-}
-a:hover,
-a:active {
-  background: #ccc;
-}*/

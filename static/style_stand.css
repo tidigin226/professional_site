@@ -1,4 +1,3 @@
-
 .outerBez{
   margin: auto;
   width:230px;
@@ -11,7 +10,6 @@
 .innerBez{
   margin: auto;
   max-width:230px;
-  /*background: #000;*/
   max-height: inherit;
   height: inherit;
   background-size: 100%;
@@ -29,13 +27,44 @@
     opacity: 0; 
     filter: alpha(opacity=1); 
  }
+.outerBezMob {
+  margin: auto;
+  width:100px;
+  padding: 12px;
+  background: #222;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  height:100%;
+}
+.innerBezMob {
+  margin: auto;
+  max-width:100px;
+  max-height: inherit;
+  height: inherit;
+  background-size: 100%;
+  vertical-align: middle;
+}
+.innerBezMob a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none;  
+    z-index: 10; 
+    background-color: transparent; 
+    opacity: 0; 
+    filter: alpha(opacity=1); 
+ }
 #studyBuddyImg{
   background-image:url('img/studyBuddyFull.png');
 }
 #AACIImg{
   background-image:url('img/AACIFull.png');
 }
-
+#tiesImg{
+  background-image:url('img/AACIFull.png');
+}
 .outerStand{
   margin: auto;
   width:230px;

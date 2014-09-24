@@ -1,9 +1,30 @@
+backgroundResize = function() {
+    if ($(window).height()*1.5 > $(window).width()){
+        $('body').height($(window).height());
+        $('body').width($(window).width());
+        $('.background').height($(window).height());
+        $('.background').width($(window).width());
+        $('.background img').height('100%');
+    }else{
+        $('body').height($(window).height());
+        $('body').width($(window).width());
+        $('.background').width($(window).width());
+        $('.background').height($(window).height());
+        $('.background img').width('100%');
+        $('.background img').height('auto');
+    }
+};
+$(window).resize(function() {
+    backgroundResize();
+});
 $(document).ready(function() {
-      $("#bluebar").css("display","none");
-  $("#projects").hide();
-  $("#about").hide();
-  $("#resume").hide();
-  $("#projectsLink").click(function() {
+    backgroundResize();
+    $(".container").css("height","100%;");        
+    $("#bluebar").css("display","none");
+    $("#projects").hide();
+    $("#about").hide();
+    $("#resume").hide();
+    $("#projectsLink").click(function() {
     if($(this).css("background")==colStrings["chrome_Red"]){
       $("#projects").hide(300);
       $(this).css("background","transparent");
@@ -15,7 +36,8 @@ $(document).ready(function() {
       $(".container").css("background","transparent");        
     }
     else{
-        $(".container").css("background","rgba(200,200,200,0.5)");        
+        $(".container").css("background","rgba(200,200,200,0.7)");        
+        $(".container").css("height","100%;");        
         $("#bluebar").css("display","inline");
         $("#resume").hide(300);
         $("#about").hide(300);
@@ -43,7 +65,7 @@ $(document).ready(function() {
       $(".container").css("background","transparent");        
     }
     else{
-        $(".container").css("background","rgba(200,200,200,0.5)");        
+        $(".container").css("background","rgba(200,200,200,0.7)");        
         $(".container").css("height","100%;");        
         $("#bluebar").css("display","inline");
         $("#projects").hide(300);
@@ -72,7 +94,8 @@ $(document).ready(function() {
       $(".container").css("background","transparent");        
     }
     else{
-        $(".container").css("background","rgba(200,200,200,0.5)");        
+        $(".container").css("background","rgba(200,200,200,0.7)");        
+        $(".container").css("height","100%;");        
         $("#bluebar").css("display","inline");
         $("#projects").hide(300);
         $("#about").hide(300);
