@@ -29,12 +29,12 @@
  }
 .outerBezMob {
   margin: auto;
-  width:100px;
-  padding: 12px;
+  width: 100px;
+  padding: 20px 5px 50px 5px;
   background: #222;
-  -moz-border-radius: 15px;
-  border-radius: 15px;
-  height:100%;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  height:130%;
 }
 .innerBezMob {
   margin: auto;
@@ -63,7 +63,7 @@
   background-image:url('img/AACIFull.png');
 }
 #tiesImg{
-  background-image:url('img/AACIFull.png');
+  background-image:url('img/ties.png');
 }
 .outerStand{
   margin: auto;
