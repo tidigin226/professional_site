@@ -16,9 +16,9 @@
     border-radius: 50%;
     -webkit-border-radius:50%;
     -moz-border-radius: 50%;
-    background: url(prof_pic.jpg) no-repeat;
-    background-size: 230px, auto;
-    background-position: 0px 0px;
+    background: url(img/propic.jpg) no-repeat;
+    background-size: 190px, auto;
+    background-position: -17px -18px;
     box-shadow: 0 0 4px rgba(0, 0, 0, .8);
     -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .8);
     -moz-box-shadow: 0 0 4px rgba(0, 0, 0, .8);

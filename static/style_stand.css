@@ -65,6 +65,9 @@
 #tiesImg{
   background-image:url('img/ties.png');
 }
+#syncspinImg{
+  background-image:url('img/syncspin.png');
+}
 .outerStand{
   margin: auto;
   width:230px;
