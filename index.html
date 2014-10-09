@@ -52,49 +52,64 @@
   				<div class="row" id="Nextile">
 				  	<div class="col-md-4 projectImg">
                         <div class="board">
-                            <div class="div ports">
-                                <div id="usb" class="port"></div>
-                                <div id="power" class="port"></div>
-                            </div>
-                            <div class="board-io">
-                                <div class="topslots">
-                                    <div id="topleft" class="io-slot">
-                                       &nbsp; 
-                                    </div>
-                                    <div id="topright" class="io-slot">
-                                       &nbsp; 
-                                    </div>
-                                </div>
-                                <div class="bottomslots">
-                                    <div id="bottomleft" class="io-slot">
-                                       &nbsp; 
-                                    </div>
-                                    <div id="bottomright" class="io-slot">
-                                       &nbsp; 
+                            <div class="leftboard">
+                                <div class="topleft">
+                                    <div class="buttons">
+                                        <div class="firstrow">
+                                            <div id="button1" class="button">&nbsp;</div>
+                                            <div id="button2" class="button">&nbsp;</div>
+                                            <div id="button3" class="button">&nbsp;</div>
+                                            <div id="button4" class="button">&nbsp;</div>
+                                        </div>
+                                        <div class="secondrow">
+                                            <div id="button5" class="button">&nbsp;</div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="buttons">
-                                <div class="firstrow">
-                                    <div id="button1" class="button">&nbsp;</div>
-                                    <div id="button2" class="button">&nbsp;</div>
-                                    <div id="button3" class="button">&nbsp;</div>
-                                    <div id="button4" class="button">&nbsp;</div>
-                                </div>
-                                <div class="secondrow">
-                                    <div id="button5" class="button">&nbsp;</div>
+                                <div class="bottomleft">
+                                    <div class="chips">
+                                        <div class="chipholder">
+                                            <div class="chip"></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="chips">
-                                <div class="chipholder">
-                                    <div class="chip"></div>
+                            <div class="centerboard">
+                                <div class="topcenter">
+                                    <div class="topslots">
+                                        <div id="topleft" class="io-slot"></div>
+                                        <div id="topright" class="io-slot"></div>
+                                    </div>
+                                </div>
+                                <div class="bottomcenter">
+                                    <div class="bottomslots">
+                                        <div id="bottomleft" class="io-slot"></div>
+                                        <div id="bottomright" class="io-slot"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rightboard">
+                                <div class="div ports">
+                                    <div id="portbuffer" class="port"></div>
+                                    <div id="power" class="port"></div>
+                                    <div id="usb" class="port"></div>
                                 </div>
                             </div>
                         </div>
 				  	</div>
 				  	<div class="col-md-8">
 				  		<h3>Nextile</h3>
-                        <p><a href="http://challengepost.com/software/syncspin-8jsx6">HackGT</a></p>
+                        <p>The
+                        <a href="http://challengepost.com/software/nextile-shurt">Nextile</a>
+                        is a wearable concept prototype that I created 
+                        with a small team which won bet hardware hack at CalHacks. 
+                        It is a shirt with flex sensors and accelerometers. 
+                        We used machine learning to convert raw sensor data 
+                        into angles between joints and render a user's real 
+                        time skeleton. We made the shirt using two edisons which 
+                        sent sensor data to firebase. After calculating angle data
+                        we displayed the user's skeleton using ThreeJs.
+                        </p>
 				  	</div>
 				</div>
 				<div class="row projectsBuffer">&nbsp;</div>
@@ -157,7 +172,14 @@
 				  	</div>
 				  	<div class="col-md-8">
 				  		<h3>BeatMyGoal</h3>
-                        <p><a href="http://www.beatmygoal.com">BeatMyGoal</a></p>
+                        <p><a href="http://www.beatmygoal.com">BeatMyGoal</a> is
+                        a web app that allows users to compete with their friends
+                        towards a goal for a monetary prize. Users create a goal
+                        which friends can join and set a prize using venmo.
+                        They log daily progress on the goal. Whoever has the 
+                        most progress after a certain time or whoever reaches 
+                        the goal first wins the goal and the prize. This app
+                        was created using django and the venmo api.</p>
 				  	</div>
 				</div>
 				<div class="row projectsBuffer">&nbsp;</div>
@@ -294,7 +316,7 @@
                         <h3>Here are some things I have been reading recently</h3>
                         <ul>
                             <li>Quantitative Trading: How to Build Your Own Algorithmic Trading Business - Ernest Chan</li>
-                            <li>How Asian Works - Joe Studwell</li>
+                            <li>How Asia Works - Joe Studwell</li>
                             <li>You Can Be a Stock Market Genius - Joel Greenblatt</li>
                             <li>Surely You're Joking, Mr. Feynman! - Richard P. Feynman</li>
                             <li>Hatching Twitter - Nick Bilton</li>

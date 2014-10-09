@@ -3,6 +3,38 @@
     width: 250px;
     height: 140px;
 }
+.leftboard{
+    position: relative;
+    display: inline-block;
+    width: 35%;
+    height: 100%;
+    float: left;
+}
+.centerboard{
+    position: relative;
+    display: inline-block;
+    width: 47%;
+    height: 100%;
+    float: left;
+    padding: 10px 0px 10px 10px;
+}
+.rightboard{
+    position: relative;
+    display: inline-block;
+    width: 15%;
+    height: 100%;
+    float: left;
+}
+.topcenter{
+    position: relative;
+    height: 50%;
+    vertical-align: top;
+}
+.bottomcenter{
+    position: relative;
+    height: 50%;
+    vertical-align: bottom;
+}
 .topslots{
     display: block;
 }
@@ -14,10 +46,8 @@
     height: 8px;
     background: #282828;
 }
-.board-io{
-}
 #topleft{
-    widht: 32px;    
+    width: 32px;    
 }
 #topright{
     width: 48px;
@@ -45,6 +75,26 @@
     width: 74px;
     height: 52px;
     padding: 4px 3px;
+}
+#usb{
+    width: 36px;
+    height: 28px;
+    background: #999;
+    position:relative;
+    float: right;
+    right: -25px
+}
+#portbuffer{
+    height: 10px;
+}
+#power{
+    width: 32px;
+    height: 20px;
+    margin-bottom: 10px;
+    background: #282828;
+    position:relative;
+    float: right;
+    right: -20px
 }
 .io-slot{
 }
