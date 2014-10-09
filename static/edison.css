@@ -2,6 +2,7 @@
     background: #21475c;
     width: 250px;
     height: 140px;
+    margin-top: 25px;
 }
 .leftboard{
     position: relative;
@@ -40,6 +41,8 @@
 }
 .bottomslots{
     display: block;
+    position: absolute;
+    bottom: 0px;
 }
 .io-slot{
     display: inline-block;
